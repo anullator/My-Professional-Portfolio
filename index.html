@@ -27,54 +27,80 @@
         
         <header>
             <!-- Page Heading -->
-            <h1>Dany Goodwin</h1>
+            <h1>Full Stack Portfolio</h1>
 
             <!-- Nav Bar -->
             <nav>
                 <ul>
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
+                    <li><a href="#contact-me">Contact Me </a></li>
                 </ul>
             </nav>
         </header>
-
-        <!-- Hero -->
-        <section>
-            <img src="./assets/images/code-hero.jpeg" alt="Binary computer code on teal-colored background.">
-            <p>Welcome to my portfolio!</p>
-        </section>
 
         <!-- Main Content -->
         <main>
 
             <!-- Introducing Dany -->
-            <!-- This section should be a flex container -->
-            <section>
-                <h2 id="about-me">About Me</h2>
-
+            <section class="about-me">
+                <article>
+                    <h2 id="about-me">About Me</h2>
+                    <p>Insert short bio</p>
+                </article>
+                
                 <!-- Headshot -->
-                <img src="./assets/images/headshot.jpg" alt="Headshot of Dany Goodwin.">
-                <p>Insert short bio</p>
+                <img class="headshot" src="./assets/images/headshot.jpg" alt="Headshot of Dany Goodwin.">
+                
             </section>
 
             <!-- Dany's Deployed Projects -->
-            <!-- This section should be a flex container -->
-            <section>
+            <section class="projects">
                 <h2 id="projects">Projects</h2>
 
-                <!-- Module 1 challenge / need to update README to credit the starter code -->
-                <article>
-                    <img src="./assets/images/accessibility-graphic.jpg" alt="Blind woman wearing green jumpsuit and working at a computer.">
-                    <h3>Accessibile Code</h3>
-                    <p>HTML and CSS</p>
-                </article>
+                <div id="project-container">
+                    <!-- Module 1 challenge / need to update README to credit the starter code -->
+                    <article>
+                        <img src="./assets/images/accessibility-graphic.jpg" alt="Blind woman wearing green jumpsuit and working at a computer.">
+                        <h3>Accessible and Responsive Code</h3>
+                        <p>HTML and CSS</p>
+                    </article>
+
+                    <!-- Placeholder project -->
+                    <article class="placeholder-project">
+                        <img src="./assets/images/accessibility-graphic.jpg" alt="Blind woman wearing green jumpsuit and working at a computer.">
+                        <h3>Project 3</h3>
+                        <p>Topic 3</p>
+                    </article>
+
+                    <!-- Placeholder project -->
+                    <article class="placeholder-project">
+                        <img src="./assets/images/accessibility-graphic.jpg" alt="Blind woman wearing green jumpsuit and working at a computer.">
+                        <h3>Project 4</h3>
+                        <p>Topic 4</p>
+                    </article>
+
+                    <!-- Placeholder project -->
+                    <article class="placeholder-project">
+                        <img src="./assets/images/accessibility-graphic.jpg" alt="Blind woman wearing green jumpsuit and working at a computer.">
+                        <h3>Project 5</h3>
+                        <p>Topic 5</p>
+                    </article>
+
+                    <!-- Placeholder project -->
+                    <article class="placeholder-project">
+                        <img src="./assets/images/accessibility-graphic.jpg" alt="Blind woman wearing green jumpsuit and working at a computer.">
+                        <h3>Project 6</h3>
+                        <p>Topic 6</p>
+                    </article>
+
+                </div>
 
             </section>
         </main>
 
         <!-- Dany's Contact Info and Links -->
-        <footer>
+        <footer class="contact-me">
             <h2 id="contact-me">Contact Me</h2>
             <ul>
                 <li><a href="">placeholder email</a></li>

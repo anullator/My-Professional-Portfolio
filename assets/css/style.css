@@ -1,0 +1,138 @@
+:root {
+    --dark-green: #015C5C;
+    --light-green: #008080;
+    --dark-purple: #581d75;
+}
+
+body {
+    color: #000;
+}
+/* REVIST THIS <---------------- */
+/* SET FLEX CONTAINERS */
+header, section, nav, ul, footer {
+    display: flex;
+    align-items: center;
+}
+
+/* Screen size breakpoints */
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+/* HEADER - LAPTOP SCREEN SIZE */
+
+header {
+    z-index: 99;
+    justify-content: space-between;
+    position: fixed;
+    background-image: url("../images/code-hero.jpeg");
+    background-size: cover;
+    height: max-content;
+    padding: 4rem 6rem;
+    width: 100%;
+    border-bottom: 1.5rem solid var(--dark-purple);
+}
+
+h1 {
+    font-size: 3.5vw;
+}
+
+h2 {
+    font-size: 3vw;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: 3vh;
+    padding: 1.5rem 0 0.8rem;
+}
+
+p {
+    font-size: 2vh;
+}
+
+li {
+    padding: 0 2rem;
+    font-size: 3vh;
+}
+
+main {
+    padding-top: 20rem;
+    background-size: cover;
+}
+
+section {
+    padding: 9rem 12rem;
+}
+
+/* ABOUT ME - LAPTOP SCREEN SIZE */
+.about-me {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.about-me img {
+    width: 30%;
+    padding: 4em;
+    border-right: 14px solid var(--light-green);
+    border-left: 14px solid var(--light-green);
+    margin-right: 15rem;
+    border-radius: 16%;
+} 
+
+.about-me article {
+    border-left: 20px solid var(--dark-green);
+    padding: 4rem 8rem;
+}
+
+/* PROJECTS - LAPTOP SCREEN SIZE */
+.projects {
+    flex-direction: column;
+    background-color: var(--dark-purple);
+    color: #FFF;
+}
+
+
+#project-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+.projects article {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    align-items: center;
+}
+
+.projects article img {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 20%;
+}
+
+.placeholder-project img {
+    opacity: 20%;
+}
+
+/* CONTACT SECTION */
+.contact-me {
+    margin: 2rem 12rem;
+    flex-direction: column;
+    padding: 4rem 0 10rem;
+}
+
