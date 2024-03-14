@@ -11,6 +11,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 GIVEN I need to sample a potential employee's previous work
 
+TODO:
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 
