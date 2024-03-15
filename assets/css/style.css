@@ -113,6 +113,11 @@ section {
     opacity: 20%;
 }
 
+#project-container article img:hover {
+    transform: scale(1.2);
+    margin-bottom: 2rem;
+}
+
 /* CONTACT SECTION */
 .contact-me {
     margin: 0.8rem 5rem;
