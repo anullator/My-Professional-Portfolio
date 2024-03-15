@@ -6,6 +6,6 @@ This project is the challenge assignment for Module 02 of the RICE Fullstack Cod
 
 ## Usage
 
-![Screenshot of Portfolio Landing Page](./assets/images/screenshot-portfolio-landing-page.pdf)
+![Screenshot of Portfolio Landing Page](./assets/images/screenshot-portfolio-landing-page.png)
 
 This is the link to the deployed webpage: https://anullator.github.io/my-professional-portfolio/
