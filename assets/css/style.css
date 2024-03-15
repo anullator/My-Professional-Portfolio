@@ -8,10 +8,6 @@ body {
     color: #000;
 }
 
-p {
-    min-width: 16px;
-}
-
 /* REVIST THIS <---------------- */
 /* SET FLEX CONTAINERS */
 header, section, nav, ul, footer {
@@ -50,6 +46,7 @@ h3 {
 
 p {
     font-size: 2vh;
+    min-width: 16px;
 }
 
 li {
@@ -125,12 +122,44 @@ section {
     padding: 1.5rem 0 4rem;
 }
 
-/* Screen size breakpoints */
-/* @media screen and (max-width: 1200px) {
-
-} */
-
+/* TABLET SCREEN */
 @media screen and (max-width: 1024px) {
+    main {
+        padding-top: 4rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+
+    li {
+        padding: 0 1rem;
+    }
+
+    /* ABOUT ME */
+    .about-me article {
+        margin-right: 0;
+    }
+
+    .about-me img {
+        width: 40%;
+        margin-right: 4rem;
+    }
+
+    /* PROJECTS */
+    .projects article {
+        padding: 4vw;
+        width: 50%;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    /* CONTACT ME */
+    .contact-me li {
+        font-size: 1rem;
+    }
 
 }
 
