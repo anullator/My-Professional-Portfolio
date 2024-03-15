@@ -8,7 +8,6 @@ body {
     color: #000;
 }
 
-/* REVIST THIS <---------------- */
 /* SET FLEX CONTAINERS */
 header, section, nav, ul, footer {
     display: flex;
@@ -16,7 +15,6 @@ header, section, nav, ul, footer {
 }
 
 /* HEADER - LAPTOP SCREEN SIZE */
-
 header {
     z-index: 99;
     justify-content: space-between;
@@ -122,7 +120,7 @@ section {
     padding: 1.5rem 0 4rem;
 }
 
-/* TABLET SCREEN */
+/* LARGE TABLET SCREEN */
 @media screen and (max-width: 1024px) {
     main {
         padding-top: 4rem;
@@ -163,11 +161,96 @@ section {
 
 }
 
+/* MINI TABLET SCREEN */
 @media screen and (max-width: 768px) {
+    main {
+        padding-top: 20vw;
+    }
+
+    section {
+        padding: 2rem 1.5rem;
+    }
     
+    /* HEADER */
+    header {
+        flex-direction: column;
+        padding: 1.5rem 2rem;
+    }
+    
+    h1 {
+        font-size: 6vw;
+        padding-bottom: 0.5rem;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    li {
+        padding: 0 2rem;
+        font-size: 3.4vw;        
+    }
+    
+
+    /* ABOUT ME */
+    .about-me img {
+        width: 30%;
+        padding: 1.2vw;
+        border-right: 3px solid var(--light-green);
+        border-left: 3px solid var(--light-green);
+        margin-right: 1.5rem;
+    } 
+    
+    .about-me article {
+        border-left: 5px solid var(--dark-green);
+        padding: 1.1rem 1.5rem;
+        margin-right: 3vw;
+    }
+
 }
 
+
+/* SMART PHONES */
 @media screen and (max-width: 480px) {
-    
-}
+    p, li {
+        font-size: 16px;
+    }
 
+    /* HEADER */
+    header {
+        padding: 1.2rem 0.2rem 0.8rem 0.2rem;
+        border-bottom: 0.25rem solid var(--dark-purple);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    header nav ul li{
+        padding: 0 1rem;
+
+    }
+
+    /* ABOUT ME */
+    .about-me {
+        flex-direction: column-reverse;
+    }
+
+    .about-me img {
+        width: 60%
+    } 
+
+    /* CONTACT ME */
+    .contact-me {
+        margin: 1rem 0 4rem 0;
+    }
+
+    .contact-me h2 {
+        font-size: 1.2rem;
+    }
+
+    .contact-me ul {
+        max-width: 100%;
+    }
+
+}
