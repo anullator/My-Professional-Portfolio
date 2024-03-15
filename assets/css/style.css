@@ -19,23 +19,6 @@ header, section, nav, ul, footer {
     align-items: center;
 }
 
-/* Screen size breakpoints */
-@media screen and (max-width: 1200px) {
-
-}
-
-@media screen and (max-width: 1024px) {
-
-}
-
-@media screen and (max-width: 768px) {
-    
-}
-
-@media screen and (max-width: 480px) {
-    
-}
-
 /* HEADER - LAPTOP SCREEN SIZE */
 
 header {
@@ -142,5 +125,20 @@ section {
     padding: 1.5rem 0 4rem;
 }
 
+/* Screen size breakpoints */
+@media screen and (max-width: 1200px) {
 
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
 
