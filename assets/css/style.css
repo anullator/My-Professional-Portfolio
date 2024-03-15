@@ -7,6 +7,11 @@
 body {
     color: #000;
 }
+
+p {
+    min-width: 16px;
+}
+
 /* REVIST THIS <---------------- */
 /* SET FLEX CONTAINERS */
 header, section, nav, ul, footer {
