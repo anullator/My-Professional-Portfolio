@@ -2,10 +2,12 @@
 
 ## Description
 
-This project is the challenge assignment for Module 02 of the RICE Fullstack Coding Bootcamp. The objective was to create a landing page for my coding projects taking accessibility and responsive design into account
+This project is my portfolio webpage. I update it regularly to reflect the projects I wish to showcase.
+
+I originally created this portfolio as the challenge assignment for Module 02 of the RICE Fullstack Coding Bootcamp. The objective was to consider accessibility and responsive design while building my landing page.
 
 ## Usage
 
 ![Screenshot of Portfolio Landing Page](./assets/images/screenshot-portfolio-landing-page.png)
 
-This is the link to the deployed webpage: https://anullator.github.io/my-professional-portfolio/
+This is the link to the deployed webpage: https://anullator.github.io/My-Professional-Portfolio/
